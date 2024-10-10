@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+             <!-- favicon -->
+             <link rel="apple-touch-icon" sizes="180x180" href="./favicon_package_v0.16/apple-touch-icon.png">
+             <link rel="icon" type="image/png" sizes="32x32" href="./favicon_package_v0.16/favicon-32x32.png">
+             <link rel="icon" type="image/png" sizes="16x16" href="./favicon_package_v0.16/favicon-16x16.png">
+             <link rel="manifest" href="./favicon_package_v0.16/site.webmanifest">
+             <link rel="mask-icon" href="./favicon_package_v0.16/safari-pinned-tab.svg" color="#5bbad5">
+             <meta name="msapplication-TileColor" content="#da532c">
+             <meta name="theme-color" content="#ffffff">
+    <!-- icon css -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custum Css -->
+    <link rel="stylesheet" href="style3.css" />
+    <!-- Responsive Css -->
+    <link rel="stylesheet" href="style2Responsive.css" />
+    <title>Cake Store</title>
+  </head>
+  <body>
+    <!-- <div class="  serchSystem position-absolute    justify-content-around align-items-center ">
+      <input class="form-control  " type="search" placeholder="Search" aria-label="Search">
+      <div class="threeSlide position-relative ">
+        <input type="checkbox" class="position-absolute pb-1 ps-1 icon-link-hover checkBoxForSerch2" id="toggle" />
+        <label for="toggle" class="">
+          <svg class="" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-cursor-fill" viewBox="0 0 16 16">
+            <path d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z"/>
+          </svg>
+        </lable>
+       
+       </div>
+      </div> -->
+               
+    <!-- NavBar -->
+    <nav class="navbar navbar-light">
+   
+      <div class="container-fluid d-flex justify-content-between justify-content-md-around justify-content-lg-evenly">
+        <div>
+          <!-- heading -->
+          <h1><a class="navbar-brand" href="#">Tastebite</a></h1>
+                 <!-- BigDropDowmsNavBar -->
+        </div>
+            <div class="BigDropDowns d-none d-lg-flex  d-md-none justify-content-around">
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>
+              <div class="dropdown">
+                <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </div>   
+              <div class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </div>
+              <div class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Link</a>
+              </div>
+            </div>
+                  
+        <!-- <div class="d-flex align-items-center justify-content-between"> -->
+               <!-- Image and Serchbar -->
+        <div
+          class="profileAndSerch d-flex justify-content-between  align-items-center"
+        >
+       
+        <div class="threeSlide position-relative">
+          <div class=" d-flex  align-items-center">
+           
+            <input type="checkbox" class="position-absolute inner1 checkBoxForSerch" id="toggle" />
+            <lable for="toggle" class="">
+              <div class="serchIcon ">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  fill="currentColor"
+                  class="bi bi-search"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+                  />
+                </svg>
+              </div>
+            </lable>
+            <input type="text" class="form-control w-100 bg-transparent inputforSerch " id="exampleInputPassword1">
+          </div>
+    
+        </div>
+        <div class="dropdown">
+          <button class=" border-0 bg-white mt-4 dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <div class="profileImg"></div>
+          </button>
+          <ul class="dropdown-menu" >
+            <li><a class="dropdown-item" href="#">LogOut</a></li>
+            <li><a class="dropdown-item" href="#">Switch</a></li>
+          </ul>
+        </div>
+       
+          
+        
+       
+         
+        </div>
+        <!-- reponsive menu -->
+                 
+        <button 
+          class="navbar-toggler d-flex d-lg-none d-md-flex TreeSlidINNav"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- main part-1 for cake image -->
+
+    <div class="container-fluid p-0 d-flex flex-column flex-lg-row  cakeImngFirst">
+      <div class="containerResMain">
+        <img
+          class="imageContainerOfMain img-fluid"
+          src="images/mainImage/pexels-brent-keane-181485-1702373.jpg"
+          alt=""
+        />
+      </div>
+      <div class="containetOfCakeImg d-flex flex-column align-items-lg-center  justify-content-lg-center  ps-3 pt-2 ps-lg-0 pt-lg-0">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <h1>It is Good <br />Cack Shop</h1>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur <br />
+          adipisicing elit. Inventore at quibusdam <br />autem, voluptatum culpa
+          voluptatem.
+        </p>
+      </div>
+      <div class="d-flex flex-row-reverse flex-lg-column-reverse pb-2">
+        <div
+          class="arrowContainerOfMain d-flex align-items-center flex-row-reverse align-content-end"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="bi bi-arrow-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- super Dish card 1 -->
+    <div
+      class="container-fluid superDish d-flex flex-column justify-content-around"
+    >
+      <h1 class="align-self-start pb-2">Super Dish</h1>
+      <div class="row gx-2">
+        <!-- card 1 -->
+        <div class="card col-lg-4 cardOfSuperDish">
+          <img
+            src="./images/itemsCardImage/pexels-fotios-photos-1279330.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <!-- Star container -->
+            <div class="starContainer">
+              <!-- One Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- two Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- three Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- four Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- five Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+            </div>
+            <p class="card-title h5">Some quick example text</p>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card col-lg-4 cardOfSuperDish">
+          <img
+            src="./images/itemsCardImage/pexels-ash-craig-122861-376464.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <!-- star container -->
+            <div class="starContainer">
+              <!-- One Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- two Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- three Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- four Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- five Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+            </div>
+            <p class="card-title h5">Some quick example text</p>
+          </div>
+        </div>
+        <!-- card 3-->
+        <div class="card col-lg-4 cardOfSuperDish">
+          <img
+            src="./images/itemsCardImage/pexels-ella-olsson-572949-1640777.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <!-- Star Container -->
+            <div class="starContainer">
+              <!-- One Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- two Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- three Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- four Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- five Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+            </div>
+            <p class="card-title h5">Some quick example text</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Sweet thooth-->
+    <div
+      class="container-fluid superDish d-flex flex-column justify-content-around"
+    >
+      <h1 class="align-self-start pb-2">Sweet Tooth</h1>
+      <div class="row g-2">
+        <!-- card 1 -->
+        <div class="card col-lg-4 col-12 cardOfSuperDish">
+          <img
+            src="./images/itemsCardImage/pexels-janetrangdoan-1099680.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <!-- Star container -->
+            <div class="starContainer">
+              <!-- One Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- two Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- three Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- four Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- five Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+            </div>
+            <p class="card-title h5">Some quick example text</p>
+          </div>
+        </div>
+        <!-- card 2 -->
+        <div class="card col-lg-4 cardOfSuperDish">
+          <img
+            src="./images/itemsCardImage/pexels-robinstickel-70497.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <!-- star container -->
+            <div class="starContainer">
+              <!-- One Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- two Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- three Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- four Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- five Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+            </div>
+            <p class="card-title h5">Some quick example text</p>
+          </div>
+        </div>
+        <!-- card 3-->
+        <div class="card col-lg-4 cardOfSuperDish">
+          <img
+            src="./images/itemsCardImage/pexels-ella-olsson-572949-1640777.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <!-- Star Container -->
+            <div class="starContainer">
+              <!-- One Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- two Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- three Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- four Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+              <!-- five Star -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-star-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"
+                />
+              </svg>
+            </div>
+            <p class="card-title h5">Some quick example text</p>
+          </div>
+        </div>
+      </div>
+    </div>
+     
+     <!-- Popular  Category -->
+     <div class="container-fluid popularCategories d-flex flex-column justify-content-between ">
+      <h1 class="mb-3">Popular Categories</h1>
+<div class="row gx-2">
+  <!-- Images 1 -->
+  <div class="poularCategoriesItems col-lg-2 d-flex flex-column justify-content-between align-items-center">
+    <img
+      class="img-fluid"
+      src="/images/categoriesImages/RoundFixImages.png"
+      alt=""
+    />
+    <h5>Burger</h5>
+  </div>
+  <!-- images 2 -->
+  <div class="poularCategoriesItems col-lg-2 d-flex flex-column justify-content-between  align-items-center">
+    <img
+      class="img-fluid"
+      src="/images/categoriesImages/RoundFixImages.png"
+      alt=""
+    />
+    <h5>Burger</h5>
+  </div>
+  <!-- images 3 -->
+  <div class="poularCategoriesItems col-lg-2 d-flex flex-column justify-content-between align-items-center">
+    <img
+      class="img-fluid"
+      src="/images/categoriesImages/RoundFixImages.png"
+      alt=""
+    />
+    <h5>Burger</h5>
+  </div>
+       <!-- image 4 -->
+  <div class="poularCategoriesItems col-lg-2 d-flex flex-column justify-content-between align-items-center">
+    <img
+      class="img-fluid"
+      src="/images/categoriesImages/RoundFixImages.png"
+      alt=""
+    />
+    <h5>Burger</h5>
+  </div>
+       <!-- image-5 -->
+  <div
+    class="poularCategoriesItems col-lg-2 d-flex flex-column justify-content-between align-items-center"
+  >
+    <img
+      class="img-fluid"
+      src="/images/categoriesImages/RoundFixImages.png"
+      alt=""
+    />
+    <h5 class=>Burger</h5>
+  </div>
+       <!-- image-6 -->
+  <div
+    class="poularCategoriesItems col-lg-2 d-flex flex-column justify-content-between align-items-center"
+  >
+    <img
+      class="img-fluid"
+      src="/images/categoriesImages/RoundFixImages.png"
+      alt=""
+    />
+    <h5 class=>Burger</h5>
+  </div>
+</div>
+</div>
+        <!-- Conntent section -->
+        <div class="container-fluid  d-flex text-center justify-content-center flex-column align-items-center contentSection "> 
+          <h1 class="">Delicionsness <br>to your inbox</h1>
+          <p class="">Enjoy weekly hand picked recipes and <br>recommendes</p>
+          <form action="#" class="formContect d-lg-flex">
+           <input class="form-control " type="email" placeholder="Email Address" aria-label="email">
+           <button class="btn JoinbtnColor" type="submit">JOIN</button>
+         </form>
+         <p class=""> by joining our newslateer before <a href="#" class=" text-dark "><br> term&Condition</a></p>
+</div>
+
+
+
+              <!-- Hand pickup Collections -->
+              <div class="container-fluid handPicup overflow-hidden ">
+                <h1 class="pb-4">Hand Pickup Collections</h1>
+               <div class="row g-4">
+                    <!-- 1-st row -->
+                <div class="card col-lg-6" >
+                  <img src="./images/HandPickupCollectionImgs/pexels-janetrangdoan-1092730.jpg" class="card-img-top" alt="...">
+                  <div class="card-body d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                    <a href="#" class="btn btn-secondary">156Recipies</a>
+                  </div>
+                </div>
+
+                  <!-- 1-st row -->
+                  <div class="card col-lg-6" >
+                    <img src="./images/HandPickupCollectionImgs/pexels-janetrangdoan-1092730.jpg" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                      <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                      <a href="#" class="btn btn-secondary">156Recipies</a>
+                    </div>
+                  </div>
+                     <!-- 2nd row-1-->
+                       
+                <div class="card col-lg-6 " >
+                  <img src="./images/HandPickupCollectionImgs/pexels-janetrangdoan-1092730.jpg" class="card-img-top" alt="...">
+                  <div class="card-body d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                    <a href="#" class="btn btn-secondary">156Recipies</a>
+                  </div>
+                </div>
+                  <!-- 2-st row -2-->
+                  <div class="card col-lg-6" >
+                    <img src="./images/HandPickupCollectionImgs/pexels-janetrangdoan-1092730.jpg" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                      <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                      <a href="#" class="btn btn-secondary">156Recipies</a>
+                    </div>
+                  </div>
+
+                     <!-- third row1 -->
+                       
+                <div class="card col-lg-6" >
+                  <img src="./images/HandPickupCollectionImgs/pexels-janetrangdoan-1092730.jpg" class="card-img-top" alt="...">
+                  <div class="card-body d-flex justify-content-between align-items-center">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                    <a href="#" class="btn btn-secondary">156Recipies</a>
+                  </div>
+                </div>
+                      
+                  <!-- third row2-->
+                  <div class="card col-lg-6" >
+                    <img src="./images/HandPickupCollectionImgs/pexels-janetrangdoan-1092730.jpg" class="card-img-top" alt="...">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                      <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                      <a href="#" class="btn btn-secondary">156Recipies</a>
+                    </div>
+                  </div>
+
+               </div>
+           </div>
+
+
+
+           
+                         <!-- Latest Recipies -->
+                         <div class="container-fluid latestReci d-flex flex-column align-items-center justify-content-between">
+                          <h1 class="align-self-lg-start align-self-start ps-1 pb-3  ">Latest Recipies</h1>  
+                          <div class="row g-3">
+                                   <!-- 1 row -->
+                            <div class="card col-lg-3  " >
+                              <img src="images/LatestImages/pexels-bemistermister-3434523.jpg"class="card-img-top  LatestImgImg" alt="...">
+                              <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                              </div>
+                            </div>
+                                <!-- 1 row 2 -->
+                                <div class="card col-lg-3  " >
+                                  <img src="images/LatestImages/pexels-janetrangdoan-936611.jpg"class="card-img-top LatestImgImg" alt="...">
+                                  <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  </div>
+                                </div>
+                                <!-- 1 row 3 -->
+                                <div class="card col-lg-3  " >
+                                  <img src="images/LatestImages/pexels-enginakyurt-1435735.jpg"class="card-img-top LatestImgImg" alt="...">
+                                  <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  </div>
+                                </div>
+                                <!-- 1 row 4 -->
+                                <div class="card col-lg-3  " >
+                                  <img src="images/LatestImages/pexels-chokniti-khongchum-1197604-2280545.jpg"class="card-img-top LatestImgImg" alt="...">
+                                  <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  </div>
+                                </div>
+
+                                <!-- 2 nd Row -->
+                                <div class="card  col-lg-3  " >
+                                  <img src="images/LatestImages/pexels-bemistermister-3434523.jpg"class="card-img-top LatestImgImg" alt="...">
+                                  <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                  </div>
+                                </div>
+                                    <!-- 2 row 2 -->
+                                    <div class="card col-lg-3 " >
+                                      <img src="images/LatestImages/pexels-janetrangdoan-936611.jpg"class="card-img-top LatestImgImg" alt="...">
+                                      <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      </div>
+                                    </div>
+                                    <!-- 2 row 3 -->
+                                    <div class="card col-lg-3 " >
+                                      <img src="images/LatestImages/pexels-enginakyurt-1435735.jpg"class="card-img-top LatestImgImg" alt="...">
+                                      <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      </div>
+                                    </div>
+                                    <!-- 2row 4 -->
+                                    <div class="card col-lg-3  " >
+                                      <img src="images/LatestImages/pexels-chokniti-khongchum-1197604-2280545.jpg"class="card-img-top LatestImgImg" alt="...">
+                                      <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                      </div>
+                                    </div>
+                  
+                          </div>   
+                          <button class="btn btn-outline-primary LodeMore border mt-5 ">Load More..</button>   
+                  </div>
+
+
+                    <!-- Footer -->
+                    <div class="container-fluid footer  ">
+                      <div class="container-fluid d-flex flex-column flex-lg-row justify-content-around  justify-content-lg-between pt-lg-5 pt-0 ">
+                 <div class="leftSide ">
+                        <h1>Tastabite</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, soluta! <br> Reiciendis, esse exercitationem quos excepturi accusantium consectetur <br> ad natus numquam  nesciunt sit qui culpa nostrum quas minus necessit</p>
+                 </div>
+                 <div class="rightSide   d-flex justify-content-around justify-content-lg-between ">
+                           <div>
+                             <h1 class="">Tastabite</h1>
+                           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                             <li class="nav-item">
+                               <a class="nav-link active" aria-current="page" href="#">AboutUs</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Careers</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Contact Us</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Feedback</a>
+                             </li>
+                               </ul>
+                           </div>
+                           <div>
+                             <h1>Follow</h1>
+                           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                             <li class="nav-item">
+                               <a class="nav-link active" aria-current="page" href="#">Facebook</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Instagram</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Linkdin</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Twitter</a>
+                             </li>
+                               </ul>
+                           </div>
+                           <div>
+                             <h1>Legel</h1>
+                           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                             <li class="nav-item">
+                               <a class="nav-link active" aria-current="page" href="#">Term</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Condition</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Cookies</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="#">Copyright</a>
+                             </li>
+                               </ul>
+                           </div>
+                 </div>
+                           <!-- For Mobile View -->
+                          <!-- <div class="mobileforRideSideFooter">
+                            <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header list-unstyled" id="headingOne">
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <b>Tastabite</b>
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <ul class=" list-unstyled" >
+                                      <li><a class="dropdown-item" href="#"> AboutUs</a></li>
+                                      <li><a class="dropdown-item" href="#"> Careers</a></li>                      
+                                      <li><a class="dropdown-item" href="#">  Contact Us</a></li>
+                                      <li><a class="dropdown-item" href="#">  Feedback</a></li> 
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button border-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  <b>  Legal</b>
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <ul class="list-unstyled" >
+                                      <li><a class="dropdown-item" href="#"> AboutUs</a></li>
+                                      <li><a class="dropdown-item" href="#"> Careers</a></li>                      
+                                      <li><a class="dropdown-item" href="#">  Contact Us</a></li>
+                                      <li><a class="dropdown-item" href="#">  Feedback</a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                  <button class="accordion-button border-0  collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <b>Follow</b>
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <ul class=" list-unstyled" >
+                                      <li><a class="dropdown-item" href="#"> AboutUs</a></li>
+                                      <li><a class="dropdown-item" href="#"> Careers</a></li>                      
+                                      <li><a class="dropdown-item" href="#">  Contact Us</a></li>
+                                      <li><a class="dropdown-item" href="#">  Feedback</a></li>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                         </div>   -->
+                      </div>
+                          <hr>
+                         
+                      <div class="container-fluid d-flex flex-column flex-lg-row align-items-start justify-content-between">
+                              <div class="w-75 part1LastItemOfFooter order-1 order-lg-0 pt-3 pb-3 pt-lg-0 pb-lg-0">
+                               <p>@2020 TastBite-All right reserved</p>
+                              </div > 
+                               <div class="iconsContainer w-75 ">
+                                             <div class="d-flex iconsContainerBox justify-content-between align-items-center">
+                                       <!-- feaceBook -->
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                                       </svg>
+                                       <!-- Youtube -->
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                         <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                                       </svg>
+                                       <!-- twiteer -->
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                         <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15"/>
+                                       </svg>
+                                       <!-- Linkdin -->
+                                       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                                         <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                                       </svg>
+                                     </div>
+                               </div>
+                      </div> 
+              </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

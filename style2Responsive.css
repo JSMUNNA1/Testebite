@@ -1,0 +1,70 @@
+/* footer */
+@media only screen and (min-width: 992px) {
+               /* NavBar */
+               .TreeSlidINNav{
+                      display: none;
+               }
+             
+               .BigDropDowns{
+                   display: flex;
+               }
+               .profileAndSerch{
+                    /* width: 40%; */
+                        width: 15%;
+                      /* margin-left: 90px; */
+             }
+             
+            /* imageContainerOfMain */
+                 .imageContainerOfMain{
+                       width: 100%;
+                       height: 100%;
+                       padding: 0px;
+                       margin: 0px;
+                 }
+                 .containetOfCakeImg{
+                         width: 40%;
+                         height: 100%;
+                         margin-top: 50px;
+                 }
+                 .containerResMain{
+                          width: 60%;
+                 }
+                            /* newsladder */
+                            .formContect{
+                              width: 50%;
+                         }
+                            .formContect >button{
+                              background-color:#ff642f;
+                              color: white;
+                              width: 20%;
+                              height: 50px;
+                              
+                            }
+                            .serchIcon{
+                                  /* margin-left: 200px; */
+                            }                           
+
+      /* Footer */
+       .rightSide{
+            width: 50%;
+       }
+       .iconsContainerBox {
+               width: 25%;
+               margin: auto;
+               
+       }
+       .mobileforRideSideFooter{
+             display: none;
+       }
+        .LodeMore{
+             margin-top: 50px;
+             margin-bottom: 50px;
+        }
+        .part1LastItemOfFooter{
+               
+                 width:100;
+        }
+        .part2LastItemOfFooter{
+               width: 50%;
+        }
+}

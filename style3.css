@@ -1,0 +1,204 @@
+*{
+  box-sizing: border-box;
+}
+.serchSystem{
+          width:100%;
+          background-color: rgb(244, 145, 110);
+          height: 100px;
+}
+.serchSystem input{
+          width: 50%;
+          border-radius: 2%;
+          background: transparent;
+          color: white;
+          border-color: black;
+          border-top: none;
+          border-left: none;
+          border-right: none;
+}
+
+h1{
+ font-weight: 800;
+
+font-family: "Sofia", sans-serif;;
+}
+.nav-link{
+color: black;
+
+}
+.card{
+border-right: none;
+border-left: none;
+border-top: none;
+cursor: pointer;
+
+}
+  /* NavBar */
+
+ .serchSystem{
+     display: flex;
+ } 
+.checkBoxForSerch2{
+  width: 40px;
+  height: 40px;
+   opacity: 0;
+  cursor: pointer;
+}
+.serchSystem:has(#toggle:checked) {
+ display: none;
+}
+  .checkBoxForSerch{
+         width: 32px;
+         height: 32px;
+          opacity: 0;
+         cursor: pointer;
+  }
+  .inputforSerch{
+      display: none;
+  }
+  .threeSlide:has(#toggle:checked) .inputforSerch {
+      display: block;
+}
+.threeSlide:has(#toggle:checked) ~.profileImg {
+  display: none;
+}
+ 
+.BigDropDowns{
+     display: none;
+}
+.profileImg{
+cursor: pointer;
+height: 45px;
+background-image: url(./images/headerImage/pexels-pixabay-415829.jpg);
+background-size: cover;
+width: 45px;
+border-radius: 50%;
+border: 1px solid red;
+background-color: gray;
+}
+
+.profileAndSerch{
+     /* width: 40%; */
+         width: 25%;
+       /* margin-left: 90px; */
+}
+
+/* Main cake Image menu and discription */
+.cakeImngFirst{
+max-width: 1085px;
+margin-top: 50px; 
+min-height: 499px;
+/* margin-top: 80px; */
+background-color: #E3F1FF;
+}
+.cakeImngFirst >img{
+        padding: 0px;
+        margin: 0px;
+        max-width: 60%;
+        height: 499px;
+        width: 100%;
+}
+.arrowContainerOfMain{
+          
+          width: 50px;
+          height: 50px;
+          cursor: pointer;
+          background-color: #ffffffcc;
+          border-radius: 50%;          
+}
+.arrowContainerOfMain svg{
+         margin: auto;
+         height: 80%;
+         width: 80%;
+}
+.arrowContainerOfMain:hover{
+    background: rgb(76, 75, 75);
+    color: #ff642f;
+     
+} 
+
+/*   Super dish */
+.superDish{
+position: relative;
+max-width: 1085px;
+min-height: 405px;
+margin-top: 75px;
+}  
+/* Popular Dish */
+.popularCategories{
+max-width: 1085px;
+min-height: 278px;
+margin-top: 75px;
+}
+.poularCategoriesItems{
+    height: 200px;
+}
+.poularCategoriesItems > img{
+          height: 175px;          
+}
+/* newsladder join */
+.contentSection{
+
+max-width: 1440px;
+height: 550px;
+ margin-top: 75px;
+background-color: #ffd7c9;
+border-radius: 5%;
+}
+.formContect{
+   width: 90%;
+}
+.formContect >input{
+      border: none;
+      height: 50px;  
+}
+.formContect >button{
+background-color:#ff642f;
+color: white;
+width: 100%;
+height: 50px;
+
+}
+.formContect >button:hover{
+color: black;
+background-color: rgb(246, 224, 102);
+
+font-size: 1.2em;
+
+}
+.term {
+   color: black;
+   text-decoration: underline solid red;
+   
+}
+/* hand pick up collections */
+.handPicup{
+max-width: 1085px;
+min-height: 1548px;
+margin-top: 75px;
+}
+
+/* Latest Recipies */
+.latestReci{
+max-width: 1110px;
+min-height: 762.87px;
+margin-top: 75px;
+}
+.LatestImgImg{
+  height: 300px;
+  border: none;
+}
+/* Footer */
+.footer{
+background-color: #f9f9f9;
+max-width: 1440px;
+min-height: 441.91px;
+margin-top: 80px;
+opacity: 0px;
+}
+.iconsContainer svg{
+      cursor: pointer;
+}
+.iconsContainer svg:hover{
+ color: green;
+}
